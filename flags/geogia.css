@@ -1,0 +1,26 @@
+.grid-container {
+  width: 500px;
+  height: 300px;
+  display: grid;
+  border: 1px solid black;
+  background-color: red;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 45px;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+#cross {
+  inline-size: 3.5rem;
+  aspect-ratio: 1;
+  --gradient: #d000 33.33%, red 0, red 66.66%, #d000 0;
+
+  background: linear-gradient(0deg, var(--gradient)),
+    linear-gradient(90deg, var(--gradient));
+}

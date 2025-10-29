@@ -1,0 +1,16 @@
+.bapak {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  color: white;
+  /* flex-direction: column; */
+  align-items: end;
+  justify-content: center;
+}
+
+.anak {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
